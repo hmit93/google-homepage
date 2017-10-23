@@ -1,0 +1,180 @@
+nav ul
+{
+    list-style-type: none;
+}
+
+nav ul > li
+{
+    float: right;
+    margin-right: 20px;
+    margin-top: 25px;
+}
+
+li a 
+{
+    display: block;
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight:lighter;
+    color: #3d3737;
+}
+
+li a:hover
+{
+    text-decoration: underline;
+}
+
+#signIn, #signIn:hover
+{
+    text-decoration: none;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #3d8fce;
+    background-color: #3d8fce;
+    color: white;
+    font-weight: 900;
+    padding: 10px;
+    border-radius: 2px;
+    margin-top: -10px;
+    margin-right: 10px;
+}
+
+#googleApps
+{
+    margin-top: -2px;
+    height: 18px;
+    width: 18px;
+    background-image:    url(../img/google_apps_grey.png);
+    background-size:     cover;         
+    background-repeat:   no-repeat;
+    background-position: center center; 
+}
+
+#googleApps:hover
+{
+    background-image:    url(../img/google_apps_black.png);
+}
+
+nav
+{
+    position: absolute;
+    right: 0;
+    top:0;
+}
+
+div
+{
+    padding-top: 200px;
+    padding-left: 100px;
+    width: 400px;
+    margin: 0 auto;
+    height: 250px;
+}
+
+li a, div header h2
+{
+    font-family: sans-serif;
+}
+
+div header img
+{
+    margin-bottom: 25px;
+}
+
+div header h2
+{
+    color: dodgerblue;
+    position: relative;
+    left: 216px;
+    bottom: 42px;
+}
+
+div section input[type="search"]
+{
+    position: relative;
+    height: 40px;
+    width: 500px;
+    right: 100px;
+    border: 0.5px solid #c9cfd3;
+    -webkit-box-shadow:0px 1px 1px #c9cfd3;
+ -moz-box-shadow:0px 1px 1px #c9cfd3;
+ box-shadow:0px 1px 5px #c9cfd3;
+}
+
+div section input[type="search"]:hover
+{
+    -webkit-box-shadow:0px 1px 1px #c9cfd3;
+ -moz-box-shadow:0px 1px 1px #c9cfd3;
+ box-shadow:0px 3px 5px #c9cfd3;
+}
+
+div section #buttonSection
+{
+    margin-top: 30px;
+}
+
+div section #buttonSection input[type="button"]
+{
+    color: dimgrey;
+    font-weight: bold;
+    border: none;
+    height: 40px;
+    width: 140px;
+    background-color: #eff2f4;
+    margin-right: 5px;
+}
+
+div section #buttonSection input[type="button"]:hover
+{
+    border: solid 1px #c1c1c1; 
+    color: black;
+    border-radius: 2px;
+}
+
+footer
+{
+    position: absolute;
+    bottom: 0;
+    height: 35px;
+    width: 1293px;
+    overflow: hidden;
+    background-color: #eff2f4;
+}
+
+footer #aba, footer #pts
+{
+    margin-top: 10px;
+    height: 38px;
+    width: 500px;
+}
+
+footer #aba
+{
+    float: left;
+}
+
+footer #aba a, footer #pts a
+{
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 12px;
+    color: dimgrey;
+}
+
+footer #pts
+{
+    float: right;
+    position: relative;
+    right: -150px;
+}
+
+footer #aba a:hover, footer #pts a:hover
+{
+    text-decoration: underline;
+}
+
+
+
+
